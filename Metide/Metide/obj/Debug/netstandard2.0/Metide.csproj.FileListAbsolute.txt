@@ -1,0 +1,17 @@
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\Metide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\CouruselScreenPage.xaml.g.cs
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\WorkPage.xaml.g.cs
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\Metide.AssemblyInfoInputs.cache
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\Metide.AssemblyInfo.cs
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\Metide.csproj.CoreCompileInputs.cache
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\Metide.dll
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\ref\Metide.dll
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\Metide.pdb
+C:\Project\Metide\Metide\Metide\bin\Debug\netstandard2.0\Metide.deps.json
+C:\Project\Metide\Metide\Metide\bin\Debug\netstandard2.0\Metide.dll
+C:\Project\Metide\Metide\Metide\bin\Debug\netstandard2.0\ref\Metide.dll
+C:\Project\Metide\Metide\Metide\bin\Debug\netstandard2.0\Metide.pdb
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\Metide.csproj.AssemblyReference.cache
+C:\Project\Metide\Metide\Metide\obj\Debug\netstandard2.0\XamlC.stamp

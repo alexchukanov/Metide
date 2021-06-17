@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Metide"
+             x:Class="Metide.MainPage"             
+             Title="Mobile App Portfolio" Padding="0" BackgroundColor="Black" Icon="MetideLogo.png">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Image">
+                <Style.Triggers>
+                    <Trigger Property="Image.IsFocused" Value="True" TargetType="Image">
+                        <Setter Property="Opacity" Value="0.5"></Setter>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name="Company" Activated="OnClick"   Order="Primary" Priority="0"  />
+        <ToolbarItem Name="Solution" Activated="OnClick"  Order="Primary" Priority="1" />
+        <ToolbarItem Name="Contacts" Activated="OnClick"  Order="Primary" Priority="2"  />
+        <ToolbarItem Name="Settings" Activated="OnClick"  Order="Secondary" Priority="3" />
+    </ContentPage.ToolbarItems>
+
+
+    <Grid ColumnSpacing ="1" RowSpacing ="1" BackgroundColor="Black" IsClippedToBounds="True" Margin="0, 5, 0, 5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width ="*" />
+            <ColumnDefinition Width ="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Row="0" Grid.Column="0" Source="Marketing.png"  Aspect="Fill" Focused="Image_Focused" HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand" >
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnTapped" NumberOfTapsRequired="1" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Grid.Row="0" Grid.Column="1" Source="Production.png" Aspect="Fill"  HorizontalOptions="StartAndExpand" VerticalOptions="EndAndExpand" >
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnTapped" NumberOfTapsRequired="1" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Grid.Row="1" Grid.Column="0" Source="IoT.png" Aspect="Fill" HorizontalOptions="EndAndExpand" VerticalOptions="StartAndExpand">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnTapped" NumberOfTapsRequired="1" />
+            </Image.GestureRecognizers>
+        </Image>
+
+        <Image Grid.Row="1" Grid.Column="1" Source="Utility.png" Aspect="Fill" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand" >
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnTapped" NumberOfTapsRequired="1" />
+            </Image.GestureRecognizers>
+        </Image>
+    </Grid>
+
+</ContentPage>
